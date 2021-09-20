@@ -23,8 +23,8 @@ namespace Run
             Student student3 = new Student(5555, "Lars", "Larsen", DateTime.Today.AddDays(-100), DateTime.Today, DateTime.Today.AddDays(-5));
             Console.WriteLine(student3.ToString());
 
-
-            Console.WriteLine(student3.Id);
+            student3.StartDate = DateTime.Now;
+            Console.WriteLine(student3.StartDate);
         }
     }
 }

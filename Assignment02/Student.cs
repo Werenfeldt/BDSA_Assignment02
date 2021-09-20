@@ -79,7 +79,7 @@ namespace StudentClass
             set => _graduationDate = value;
         }
 
-        public ActivityStatus StudentStatus
+        public ActivityStatus Status
         {
             get => _status;
         }
